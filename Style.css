@@ -75,12 +75,14 @@ h1 {
 h2 {
 	font-family: "Amatic SC", arial, "sans serif";
 	font-size: 4rem;
+	padding-left: 20px;
 }
 
 p{
 	font-family: "Noto Sans Display", arial, "sans serif";
 	font-size: 1.5rem;
 	position: block-inline;
+	padding-left: 10px;
 }
 .Projects_Text{
 	position: absolute;
