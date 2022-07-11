@@ -26,9 +26,9 @@ nav {
 
 a {
 	text-decoration: none;
-	font-family: arial, "sans serif";
-	padding-right: 30px;
-	font-size: 3rem;
+	font-family: "Amatic SC", arial, "sans serif";
+	padding-right: 80px;
+	font-size: 5rem;
 	color: black;
 }
 
@@ -43,19 +43,47 @@ body {
 }
 
 header {
-	display: inline;
-	padding:200px;
+	display: block-inline;
+	width:100vw;
+	height:100vh;
 }
 
 h1 {
-	font-family: arial, "sans serif";
+	font-family: "Amatic SC", arial, "sans serif";
+	font-size: 8rem;
+	font-weight: bold;
+	margin: 0;
+	position: absolute;
+	top:40%;
+	left:60%;
+	transform: translate(-50%, -50%);
+}
+.intro_under_title{
+	margin: 0;
+	position: absolute;
+	top:48%;
+	left:45%;
+	transform: translate(-50, -50%);
+	max-width:40%;
 	
 }
-
 h2 {
-	font-family: arial, "sans serif";
+	font-family: "Amatic SC", arial, "sans serif";
+	font-size: 4rem;
 }
 
 p{
-	font-family: arial, "sans serif";
+	font-family: "Noto Sans Display", arial, "sans serif";
+	font-size: 1.5rem;
+}
+.container {
+	display: block-inline;
+	width:100vw;
+	height:100vh;
+}
+.sections_about { 
+	background-color: #3f6ab5;
+}
+.sections_contact {
+	background-color: #3f6ab5;
 }
