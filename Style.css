@@ -134,26 +134,45 @@ p{
 	z-index:4;
 	padding:50px;
 }
-
-
-
-
+.image_homepage {
+	display:inline;
+	position: relative;
+	top:10%;
+}
+.image_about_page {
+	display:inline;
+	position: relative;
+}
+.image_projects_page {
+	display:inline;
+	position: relative;
+}
+.image_contact_page {
+	display:inline;
+	position: relative;
+}
+.image_contact_page_two {
+	display:inline;
+	position: relative;
+}
 
 
 
 @media screen and (max-width: 600px) {
 	html {
-		font-size: 12px;
+		font-size: 9px;
 	}
 	.cv{
 		border-left:solid black;
 		border-width:thick;
+		border-color:#7198d9;
 	}
 	h1{
-		top:45%;
+		top:25%;
 	}
 	.intro_under_title{
-		top:65%;
+		top:40%;
+		font-size:2rem;
 	}
 	.sections_about { 
 		background-color: #3f6ab5;
@@ -175,4 +194,7 @@ p{
 		z-index:4;
 		height:1000px;
 	}	
+	p {
+		font-size:2rem;
+	}
 }
