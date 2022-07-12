@@ -103,6 +103,9 @@ p {
 	position: block-inline;
 	padding-left: 10px;
 }
+.about_para{
+	max-width:60%;
+}
 .projects_container {
 	display: flex;
 	flex-direction: row; 
@@ -111,9 +114,6 @@ p {
 	align-items: stretch;
 	gap: 10px;
 	position: relative;
-
-	
-
 }
 .content{
 	padding: 40px;
@@ -173,9 +173,10 @@ p {
 	flex-wrap:wrap;
 }
 .image_about_page {
-	display:inline;
+	display: absolute;
 	position: relative;
-	top: 20%;
+	left: 1200px;
+	bottom: 100px;
 }
 .image_projects_page {
 	display:inline;
@@ -184,14 +185,14 @@ p {
 .image_contact_page {
 	display:inline;
 	position: relative;
-	top: 20%;
+	top: 40%;
 	left:40%;
 }
 .image_contact_page_two {
 	display:inline;
 	position: relative;
 	top: 50%;
-	right:20%;
+	left:20%;
 }
 .made_by{
 	text-align: center;
