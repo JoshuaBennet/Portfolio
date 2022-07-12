@@ -1,5 +1,6 @@
 * {
 box-sizing: border-box;
+scroll-behavior: smooth;
 } 
 
 html {
@@ -189,9 +190,12 @@ p {
 .image_contact_page_two {
 	display:inline;
 	position: relative;
+	top: 50%;
 	right:20%;
 }
-
+.made_by{
+	text-align: center;
+}
 
 
 @media screen and (max-width: 600px) {
