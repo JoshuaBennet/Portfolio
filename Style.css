@@ -36,12 +36,14 @@ a {
 	text-decoration: none;
 	font-family: "Amatic SC", arial, "sans serif";
 	padding-right: 80px;
+	padding-left: 10px;
 	font-size: 5rem;
 	color: black;
 }
 
 a:hover {
 	background-color: #7298db;
+	border-radius: 15px;
 }
 
 body {
@@ -81,6 +83,8 @@ h1 {
 	
 }
 h2 {
+	display: block;
+	width:100%;
 	font-family: "Amatic SC", arial, "sans serif";
 	font-size: 8rem;
 	padding-left: 20px;
@@ -96,10 +100,14 @@ p{
 .Projects_Text{
 	position: absolute;
 	top: 230px;
+	display:flex;
+	flex-wrap:wrap;
 }
 .Contact_Text{
 	position: absolute;
 	top: 230px;
+	display:flex;
+	flex-wrap:wrap;
 }
 .container {
 	display: flex;
@@ -135,13 +143,16 @@ p{
 	padding:50px;
 }
 .image_homepage {
-	display:inline;
+	display: inline;
 	position: relative;
 	top:10%;
+	left:200px;
+	flex-wrap:wrap;
 }
 .image_about_page {
 	display:inline;
 	position: relative;
+	top: 20%;
 }
 .image_projects_page {
 	display:inline;
@@ -150,10 +161,13 @@ p{
 .image_contact_page {
 	display:inline;
 	position: relative;
+	top: 20%;
+	left:40%;
 }
 .image_contact_page_two {
 	display:inline;
 	position: relative;
+	right:20%;
 }
 
 
@@ -162,39 +176,57 @@ p{
 	html {
 		font-size: 9px;
 	}
+	.navbar {
+		border-bottom:solid;
+		border-width:thick;
+		border-color:#7198d9;
+	}
 	.cv{
-		border-left:solid black;
+		border-left:solid;
 		border-width:thick;
 		border-color:#7198d9;
 	}
 	h1{
-		top:25%;
+		top:20%;
 	}
 	.intro_under_title{
 		top:40%;
 		font-size:2rem;
 	}
 	.sections_about { 
-		background-color: #3f6ab5;
-		position: sticky;
 		top:240px;
 		z-index:2;
 	}
 	.sections_projects{
-		background-color: #c5d1e6;
-		position: sticky;
 		top:240px;
 		z-index:3;
-
 	}
 	.sections_contact {
-		background-color: #3f6ab5;
-		position: sticky;
 		top:240px;
 		z-index:4;
 		height:1000px;
 	}	
 	p {
 		font-size:2rem;
+	}
+	.image_homepage {
+		visibility: hidden; 
+
+	}
+	.image_about_page {
+		visibility: hidden; 
+
+	}
+	.image_projects_page {
+		visibility: hidden; 
+
+	}
+	.image_contact_page {
+		visibility: hidden; 
+
+	}
+	.image_contact_page_two {
+		visibility: hidden; 
+
 	}
 }
