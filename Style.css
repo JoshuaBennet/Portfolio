@@ -16,7 +16,15 @@ nav {
 	left: 0;
 	z-index: 10;
 	width: 100%	
+	
 }
+.navbar {
+	background-color:#c5d1e6;
+	width: 100%;
+	display: block-inline;
+	padding:10px;
+	margin-bottom:10px;
+	
 }
 .cv {
 	border-bottom: solid;
@@ -46,7 +54,7 @@ header {
 	display: block-inline;
 	width:100vw;
 	height:100vh;
-	position: sticky;
+	position: relative;
 	top:75px;
 	z-index:1;
 }
@@ -102,20 +110,20 @@ p{
 }
 .sections_about { 
 	background-color: #3f6ab5;
-	position: sticky;
+	position: relative;
 	top:88px;
 	z-index:2;
 }
 .sections_projects{
 	background-color: #c5d1e6;
-	position: sticky;
+	position: relative;
 	top:88px;
 	z-index:3;
 
 }
 .sections_contact {
 	background-color: #3f6ab5;
-	position: sticky;
+	position: relative;
 	top:88px;
 	z-index:4;
 }
