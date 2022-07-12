@@ -27,9 +27,10 @@ nav {
 	
 }
 .cv {
-	border-bottom: solid;
+	border: solid;
 	border-width:small;
 	border-color:#7198d9;
+	border-radius: 25px
 }
 
 a {
@@ -50,6 +51,7 @@ body {
 	width:100%
 	height: auto;
 	background-color: #c5d1e6;
+	overflow-x: hidden; 
 }
 
 header {
@@ -88,14 +90,32 @@ h2 {
 	font-family: "Amatic SC", arial, "sans serif";
 	font-size: 8rem;
 	padding-left: 20px;
-
 }
-
-p{
+h3 {	
+	display: relative;
+	font-family: "Amatic SC", arial, "sans serif";
+	font-size: 6rem;
+	margin:0;
+}
+p {
 	font-family: "Noto Sans Display", arial, "sans serif";
 	font-size: 1.5rem;
 	position: block-inline;
 	padding-left: 10px;
+}
+.projects_container {
+	position: absolute;
+	top: 320px;
+	display:flex;
+	flex-wrap:wrap;
+	padding: 40px;	
+}
+.content{
+	padding: 40px;
+	border: solid black;
+}
+.links_content{
+	font-size:4rem;
 }
 .Projects_Text{
 	position: absolute;
@@ -185,6 +205,7 @@ p{
 		border-left:solid;
 		border-width:thick;
 		border-color:#7198d9;
+		
 	}
 	h1{
 		top:20%;
