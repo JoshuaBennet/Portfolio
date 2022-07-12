@@ -17,15 +17,18 @@ nav {
 	left: 0;
 	z-index: 10;
 	width: 100%	
-	
 }
 .navbar {
 	background-color:#c5d1e6;
 	width: 100%;
-	display: block-inline;
 	padding:10px;
 	margin-bottom:10px;
-	
+}
+.fa-spin:hover {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 .cv {
 	border: solid;
@@ -37,7 +40,7 @@ nav {
 a {
 	text-decoration: none;
 	font-family: "Amatic SC", arial, "sans serif";
-	padding-right: 80px;
+	padding-right: 40px;
 	padding-left: 10px;
 	font-size: 5rem;
 	color: black;
@@ -52,12 +55,10 @@ body {
 	width:100%
 	height: auto;
 	background-color: #c5d1e6;
-	overflow-x: hidden; 
 }
 
 header {
-	display: block-inline;
-	width:100vw;
+	width:100%;
 	height:100vh;
 	position: relative;
 	top:75px;
@@ -144,7 +145,7 @@ p {
 .sections_about { 
 	background-color: #3f6ab5;
 	position: relative;
-	width:100vw;
+	width:100;
 	top:88px;
 	z-index:2;
 	padding:50px;
@@ -152,7 +153,7 @@ p {
 .sections_projects{
 	background-color: #c5d1e6;
 	position: relative;
-	width:100vw;
+	width:100;
 	height: auto;
 	z-index:3;
 	padding:50px;
@@ -161,7 +162,7 @@ p {
 .sections_contact {
 	background-color: #3f6ab5;
 	position: relative;
-	width:100vw;
+	width:100;
 	z-index:4;
 	padding:50px;
 }
@@ -185,14 +186,14 @@ p {
 .image_contact_page {
 	display:inline;
 	position: relative;
-	top: 40%;
-	left:40%;
+	top: 30px;
+	left:1400px;
 }
 .image_contact_page_two {
 	display:inline;
 	position: relative;
-	top: 50%;
-	left:20%;
+	bottom: 350px;
+	left:640px;
 }
 .made_by{
 	text-align: center;
@@ -203,10 +204,14 @@ p {
 	html {
 		font-size: 9px;
 	}
+	nav{
+		flex-wrap:wrap;
+	}
 	.navbar {
 		border-bottom:solid;
 		border-width:thick;
 		border-color:#7198d9;
+
 	}
 	.cv{
 		border-left:solid;
