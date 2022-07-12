@@ -74,7 +74,7 @@ h1 {
 .intro_under_title{
 	margin: 0;
 	position: absolute;
-	top:48%;
+	top:58%;
 	left:45%;
 	transform: translate(-50, -50%);
 	max-width:40%;
@@ -82,8 +82,9 @@ h1 {
 }
 h2 {
 	font-family: "Amatic SC", arial, "sans serif";
-	font-size: 4rem;
+	font-size: 8rem;
 	padding-left: 20px;
+
 }
 
 p{
@@ -94,11 +95,11 @@ p{
 }
 .Projects_Text{
 	position: absolute;
-	top: 80px;
+	top: 230px;
 }
 .Contact_Text{
 	position: absolute;
-	top: 80px;
+	top: 230px;
 }
 .container {
 	display: flex;
@@ -111,21 +112,27 @@ p{
 .sections_about { 
 	background-color: #3f6ab5;
 	position: relative;
+	width:100vw;
 	top:88px;
 	z-index:2;
+	padding:50px;
 }
 .sections_projects{
 	background-color: #c5d1e6;
 	position: relative;
+	width:100vw;
 	top:88px;
 	z-index:3;
+	padding:50px;
 
 }
 .sections_contact {
 	background-color: #3f6ab5;
 	position: relative;
+	width:100vw;
 	top:88px;
 	z-index:4;
+	padding:50px;
 }
 
 
