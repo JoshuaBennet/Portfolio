@@ -2,11 +2,9 @@
 box-sizing: border-box;
 scroll-behavior: smooth;
 } 
-
 html {
 	font-size: 12px;
 }
-
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -24,19 +22,12 @@ nav {
 	padding:10px;
 	margin-bottom:10px;
 }
-.fa-spin:hover {
-  -webkit-animation: spin 2s infinite linear;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
-}
 .cv {
 	border: solid;
 	border-width:small;
 	border-color:#7198d9;
 	border-radius: 25px
 }
-
 a {
 	text-decoration: none;
 	font-family: "Amatic SC", arial, "sans serif";
@@ -45,18 +36,15 @@ a {
 	font-size: 5rem;
 	color: black;
 }
-
 a:hover {
 	background-color: #7298db;
 	border-radius: 15px;
 }
-
 body {
 	width:100%
 	height: auto;
 	background-color: #c5d1e6;
 }
-
 header {
 	width:100%;
 	height:100vh;
@@ -64,7 +52,6 @@ header {
 	top:75px;
 	z-index:1;
 }
-
 h1 {
 	font-family: "Amatic SC", arial, "sans serif";
 	font-size: 8rem;
@@ -75,7 +62,6 @@ h1 {
 	left:60%;
 	transform: translate(-50%, -50%);
 	wrap: nowrap;
-
 }
 .intro_under_title{
 	margin: 0;
@@ -83,8 +69,7 @@ h1 {
 	top:58%;
 	left:45%;
 	transform: translate(-50, -50%);
-	max-width:40%;
-	
+	max-width:40%;	
 }
 h2 {
 	display: flex;
@@ -157,13 +142,11 @@ p {
 	height: auto;
 	z-index:3;
 	padding:50px;
-
 }
 .sections_contact {
 	background-color: #3f6ab5;
 	position: relative;
-	width:100;
-	z-index:4;
+	width:100%;
 	padding:50px;
 }
 .image_homepage {
@@ -211,13 +194,11 @@ p {
 		border-bottom:solid;
 		border-width:thick;
 		border-color:#7198d9;
-
 	}
 	.cv{
 		border-left:solid;
 		border-width:thick;
-		border-color:#7198d9;
-		
+		border-color:#7198d9;	
 	}
 	h1{
 		top:20%;
@@ -260,6 +241,5 @@ p {
 	}
 	.image_contact_page_two {
 		visibility: hidden; 
-
 	}
 }
