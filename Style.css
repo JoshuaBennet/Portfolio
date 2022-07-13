@@ -13,15 +13,13 @@ nav {
 	top: 0;
 	left: 0;
 	z-index: 10;
-}
-.navbar {
 	background-color:#c5d1e6;
 	width: 100%;
 	padding:10px;
 	margin-bottom:10px;
 }
 .cv {
-	border: thin solid #7198d9;
+	border: solid #7198d9;
 	border-radius: 25px
 }
 a {
@@ -140,6 +138,8 @@ p {
 	width:100%;
 	padding:50px;
 }
+
+
 .image_homepage {
 	display: inline;
 	position: relative;
@@ -181,7 +181,7 @@ p {
 		display: flex;
 	}
 
-	.navbar {
+	nav {
 		border-bottom: solid #3f6ab5;
 	}
 
@@ -206,15 +206,6 @@ p {
 	.Projects_Text {
 		top: 200px;
 	}
-
-	.image_homepage {
-		visibility: hidden;
-	}
-
-	.image_about_page {
-		visibility: hidden;
-	}
-
 	.content {
 		padding: 0;
 		left: auto;
@@ -224,18 +215,7 @@ p {
 	.sections_projects {
 		padding: 0;
 	}
-
-	.image_projects_page {
-		visibility: hidden;
-
-	}
-
-	.image_contact_page {
-		visibility: hidden;
-
-	}
-
-	.image_contact_page_two {
+	.image_contact_page_two, .image_contact_page, .image_projects_page, .image_about_page, .image_homepage {
 		visibility: hidden;
 	}
 }
