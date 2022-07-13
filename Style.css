@@ -138,14 +138,17 @@ p {
 	width:100%;
 	padding:50px;
 }
-
-
 .image_homepage {
 	display: inline;
 	position: relative;
-	top:10%;
+	top:40px;
 	left:200px;
-	flex-wrap:wrap;
+}
+.image_homepage_2 {
+	display: inline;
+	position: relative;
+	top:100px;
+	left:600px;
 }
 .image_about_page {
 	display: inline-block;
@@ -168,7 +171,6 @@ p {
 	position: relative;
 	bottom: 350px;
 	left: 640px;
-
 }
 .made_by{
 	text-align: center;
@@ -215,7 +217,22 @@ p {
 	.sections_projects {
 		padding: 0;
 	}
-	.image_contact_page_two, .image_contact_page, .image_projects_page, .image_about_page, .image_homepage {
+	.image_contact_page_two {
+		visibility: hidden;
+	}
+	.image_contact_page {
+		visibility: hidden;
+	}
+	.image_projects_page {
+		visibility: hidden;
+	}
+	.image_about_page{
+		visibility: hidden;
+	}
+	.image_homepage  {
+		visibility: hidden;
+	}
+	.image_homepage_2 {
 		visibility: hidden;
 	}
 }
