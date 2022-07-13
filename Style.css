@@ -8,13 +8,11 @@ html {
 nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
 	align-items: center;	
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 10;
-	width: 100%	
 }
 .navbar {
 	background-color:#c5d1e6;
@@ -23,14 +21,12 @@ nav {
 	margin-bottom:10px;
 }
 .cv {
-	border: solid;
-	border-width:small;
-	border-color:#7198d9;
+	border: thin solid #7198d9;
 	border-radius: 25px
 }
 a {
 	text-decoration: none;
-	font-family: "Amatic SC", arial, "sans serif";
+	font-family: "Amatic SC", arial, sans-serif;
 	padding-right: 40px;
 	padding-left: 10px;
 	font-size: 5rem;
@@ -41,7 +37,7 @@ a:hover {
 	border-radius: 15px;
 }
 body {
-	width:100%
+	width:100%;
 	height: auto;
 	background-color: #c5d1e6;
 }
@@ -53,40 +49,35 @@ header {
 	z-index:1;
 }
 h1 {
-	font-family: "Amatic SC", arial, "sans serif";
+	font-family: "Amatic SC", arial, sans-serif;
 	font-size: 8rem;
-	font-weight: bold;
 	margin: 0;
 	position: absolute;
 	top:40%;
 	left:60%;
 	transform: translate(-50%, -50%);
-	wrap: nowrap;
 }
 .intro_under_title{
 	margin: 0;
 	position: absolute;
 	top:58%;
 	left:45%;
-	transform: translate(-50, -50%);
-	max-width:40%;	
 }
 h2 {
-	display: flex;
-	font-family: "Amatic SC", arial, "sans serif";
+	font-family: "Amatic SC", arial, sans-serif;
 	font-size: 8rem;
 	padding-left: 20px;
 }
-h3 {	
-	display: relative;
-	font-family: "Amatic SC", arial, "sans serif";
+h3 {
+	display: inline-block;
+	font-family: "Amatic SC", arial, sans-serif;
 	font-size: 6rem;
 	margin:0;
 }
 p {
-	font-family: "Noto Sans Display", arial, "sans serif";
+	font-family: "Noto Sans Display", arial, sans-serif;
 	font-size: 1.5rem;
-	position: block-inline;
+	position: relative;
 	padding-left: 10px;
 }
 .about_para{
@@ -130,7 +121,7 @@ p {
 .sections_about { 
 	background-color: #3f6ab5;
 	position: relative;
-	width:100;
+	width:100%;
 	top:88px;
 	z-index:2;
 	padding:50px;
@@ -138,7 +129,7 @@ p {
 .sections_projects{
 	background-color: #c5d1e6;
 	position: relative;
-	width:100;
+	width:100%;
 	height: auto;
 	z-index:3;
 	padding:50px;
@@ -157,7 +148,7 @@ p {
 	flex-wrap:wrap;
 }
 .image_about_page {
-	display: absolute;
+	display: inline-block;
 	position: relative;
 	left: 1200px;
 	bottom: 100px;
@@ -176,7 +167,8 @@ p {
 	display:inline;
 	position: relative;
 	bottom: 350px;
-	left:640px;
+	left: 640px;
+
 }
 .made_by{
 	text-align: center;
@@ -186,60 +178,65 @@ p {
 @media screen and (max-width: 600px) {
 	html {
 		font-size: 9px;
+		display: flex;
 	}
-	nav{
-		flex-wrap:wrap;
-	}
+
 	.navbar {
-		border-bottom:solid;
-		border-width:thick;
-		border-color:#7198d9;
+		border-bottom: solid #3f6ab5;
 	}
-	.cv{
-		border-left:solid;
-		border-width:thick;
-		border-color:#7198d9;	
+
+	h1 {
+		align-content: center;
 	}
-	h1{
-		top:20%;
+
+	.intro_under_title {
+		right: auto;
+		left: auto;
 	}
-	.intro_under_title{
-		top:40%;
-		font-size:2rem;
+
+	.Contact_Text {
+		top: 200px
 	}
-	.sections_about { 
-		top:240px;
-		z-index:2;
+
+	.about_para {
+		right: auto;
+		left: auto;
 	}
-	.sections_projects{
-		top:240px;
-		z-index:3;
+
+	.Projects_Text {
+		top: 200px;
 	}
-	.sections_contact {
-		top:240px;
-		z-index:4;
-		height:1000px;
-	}	
-	p {
-		font-size:2rem;
-	}
+
 	.image_homepage {
-		visibility: hidden; 
-
+		visibility: hidden;
 	}
+
 	.image_about_page {
-		visibility: hidden; 
-
+		visibility: hidden;
 	}
+
+	.content {
+		padding: 0;
+		left: auto;
+		right: auto;
+	}
+
+	.sections_projects {
+		padding: 0;
+	}
+
 	.image_projects_page {
-		visibility: hidden; 
+		visibility: hidden;
 
 	}
+
 	.image_contact_page {
-		visibility: hidden; 
+		visibility: hidden;
 
 	}
+
 	.image_contact_page_two {
-		visibility: hidden; 
+		visibility: hidden;
 	}
 }
+
