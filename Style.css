@@ -73,8 +73,12 @@ p {
 	font-family: "Noto Sans Display", arial, sans-serif;
 	font-size: 1.5rem;
 }
+.about_title {
+	color: aliceblue;
+}
 .about_paragraph{
 	max-width: 60%;
+	color: aliceblue;
 }
 .projects_container {
 	display: flex;
@@ -90,10 +94,14 @@ p {
 .links_content{
 	font-size: 4rem;
 }
+.contact_title {
+	color: aliceblue;
+}
 .contact_text{
 	margin-top: 0;
 	display: flex;
 	flex-wrap: wrap;
+	color: aliceblue;
 }
 .container {
 	width: 100%;
@@ -154,7 +162,9 @@ p {
 	top: 20px;
 	left: 50%;
 }
-
+.contact_links {
+	color: aliceblue;
+}
 .made_by{
 	text-align: center;
 }
