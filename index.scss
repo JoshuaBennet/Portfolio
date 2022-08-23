@@ -1,222 +1,255 @@
 * {
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-} 
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 html {
-	font-size: 12px;
+  font-size: 12px;
 }
+
 nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;	
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	background-color: #c5d1e6;
-	width: 100%;
-	padding: 10px;
-	margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #c5d1e6;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
 }
+
 .cv {
-	border: solid #7198d9;
-	border-radius: 25px
+  border: solid #7198d9;
+  border-radius: 25px
 }
+
 a {
-	text-decoration: none;
-	font-family: "Amatic SC", arial, sans-serif;
-	padding-right: 40px;
-	padding-left: 10px;
-	font-size: 5rem;
-	color: black;
+  text-decoration: none;
+  font-family: "Amatic SC", arial, sans-serif;
+  padding-right: 40px;
+  padding-left: 10px;
+  font-size: 5rem;
+  color: black;
 }
+
 a:hover {
-	background-color: #7298db;
-	border-radius: 15px;
+  background-color: #7298db;
+  border-radius: 15px;
 }
+
 body {
-	width: 100%;
-	height: auto;
-	background-color: #c5d1e6;
+  width: 100%;
+  height: auto;
+  background-color: #c5d1e6;
 }
+
 header {
-	width: 100%;
-	height: 100vh;
-	position: relative;
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
+
 h1 {
-	font-family: "Amatic SC", arial, sans-serif;
-	font-size: 8rem;
-	top: 200px;
-	margin-top: 140px;
-	padding-top: 60px;
+  font-family: "Amatic SC", arial, sans-serif;
+  font-size: 8rem;
+  top: 200px;
+  margin-top: 140px;
+  padding-top: 60px;
 }
+
 .header_container {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 
 }
-.intro_under_title{
-	position: absolute;
-	margin: 0 auto;
-	max-width: 80%;
+
+.intro_under_title {
+  position: absolute;
+  margin: 0 auto;
+  max-width: 80%;
 }
+
 .header_paragraph_container {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
 h2 {
-	font-family: "Amatic SC", arial, sans-serif;
-	font-size: 8rem;
-	padding-left: 20px;
+  font-family: "Amatic SC", arial, sans-serif;
+  font-size: 8rem;
+  padding-left: 20px;
 }
+
 h3 {
-	font-family: "Amatic SC", arial, sans-serif;
-	font-size: 6rem;
-	margin: 0;
+  font-family: "Amatic SC", arial, sans-serif;
+  font-size: 6rem;
+  margin: 0;
 }
+
 p {
-	font-family: "Noto Sans Display", arial, sans-serif;
-	font-size: 1.5rem;
+  font-family: "Noto Sans Display", arial, sans-serif;
+  font-size: 1.5rem;
 }
+
 .about_title {
-	color: aliceblue;
+  color: aliceblue;
 }
-.about_paragraph{
-	max-width: 60%;
-	color: aliceblue;
+
+.about_paragraph {
+  max-width: 60%;
+  color: aliceblue;
 }
+
 .projects_container {
-	display: flex;
-	flex-direction: row; 
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: stretch;
-	gap: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 10px;
 }
-.projects_paragraph{
-	max-width: 360px;
+
+.projects_paragraph {
+  max-width: 360px;
 }
-.links_content{
-	font-size: 4rem;
+
+.links_content {
+  font-size: 4rem;
 }
+
 .contact_title {
-	color: aliceblue;
+  color: aliceblue;
 }
-.contact_text{
-	margin-top: 0;
-	display: flex;
-	flex-wrap: wrap;
-	color: aliceblue;
+
+.contact_text {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: aliceblue;
 }
+
 .container {
-	width: 100%;
-	height: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
+
 .about_section {
-	background-color: #3f6ab5;
-	position: relative;
-	width: 100%;
-	padding: 50px;
+  background-color: #3f6ab5;
+  position: relative;
+  width: 100%;
+  padding: 50px;
 }
-.projects_section{
-	background-color: #c5d1e6;
-	position: relative;
-	width: 100%;
-	height: auto;
-	padding: 20px
+
+.projects_section {
+  background-color: #c5d1e6;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 20px
 }
+
 .contact_section {
-	background-color: #3f6ab5;
-	position: relative;
-	width: 100%;
-	padding: 50px;
+  background-color: #3f6ab5;
+  position: relative;
+  width: 100%;
+  padding: 50px;
 }
+
 .homepage_section_astronaut_floating_image {
-	display: inline;
-	position: absolute;
-	top: 420px;
-	left: 200px;
+  display: inline;
+  position: absolute;
+  top: 420px;
+  left: 200px;
 }
+
 .homepage_section_astronaut_reaching_image {
-	display: inline;
-	position: absolute;
-	top: 280px;
-	right: 60px;
+  display: inline;
+  position: absolute;
+  top: 280px;
+  right: 60px;
 }
+
 .about_section_astronaut_jumpingjack_image {
-	display: inline-block;
-	position: absolute;
-	right: 40px;
-	bottom: 100px;
+  display: inline-block;
+  position: absolute;
+  right: 40px;
+  bottom: 100px;
 }
+
 .image_projects_page {
-	display: inline;
-	position: relative;
+  display: inline;
+  position: relative;
 }
+
 .contact_section_rocket_image {
-	display: inline;
-	position: absolute;
-	top: 210px;
-	right: 140px;
+  display: inline;
+  position: absolute;
+  top: 210px;
+  right: 140px;
 }
+
 .contact_section_planet_image {
-	display:inline;
-	position: absolute;
-	top: 20px;
-	left: 50%;
+  display: inline;
+  position: absolute;
+  top: 20px;
+  left: 50%;
 }
+
 .contact_links {
-	color: aliceblue;
+  color: aliceblue;
 }
-.made_by{
-	text-align: center;
+
+.made_by {
+  text-align: center;
 }
 
 
 @media screen and (max-width: 600px) {
-	html {
-		font-size: 10px;
-	}
-	h1{
-		margin-top: 200px;
-	}
-	nav {
-		border-bottom: solid #3f6ab5;
-	}
-	header {
-		width: 100%;
-		height: 620px;
-		position: relative;
-	}
-	.content {
-		padding: 0;
-	}
-	.links_content {
-		padding-left: 100px;
-	}
-	.sections_projects {
-		padding: 0;
-	}
-	.contact_section_planet_image {
-		display: none;
-	}
-	.contact_section_rocket_image {
-		display: none;
-	}
-	.image_projects_page {
-		display: none;
-	}
-	.about_section_astronaut_jumpingjack_image{
-		display: none;
-	}
-	.homepage_section_astronaut_floating_image {
-		display: none;
-	}
-	.homepage_section_astronaut_reaching_image {
-		display: none;
-	}
+  html {
+    font-size: 10px;
+  }
+  h1 {
+    margin-top: 200px;
+  }
+  nav {
+    border-bottom: solid #3f6ab5;
+  }
+  header {
+    width: 100%;
+    height: 620px;
+    position: relative;
+  }
+  .content {
+    padding: 0;
+  }
+  .links_content {
+    padding-left: 100px;
+  }
+  .sections_projects {
+    padding: 0;
+  }
+  .contact_section_planet_image {
+    display: none;
+  }
+  .contact_section_rocket_image {
+    display: none;
+  }
+  .image_projects_page {
+    display: none;
+  }
+  .about_section_astronaut_jumpingjack_image {
+    display: none;
+  }
+  .homepage_section_astronaut_floating_image {
+    display: none;
+  }
+  .homepage_section_astronaut_reaching_image {
+    display: none;
+  }
 }
 
