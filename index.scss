@@ -23,7 +23,7 @@ nav {
 
 .cv {
   border: solid #7198d9;
-  border-radius: 25px
+  border-radius: 25px;
 }
 
 a {
@@ -33,11 +33,11 @@ a {
   padding-left: 10px;
   font-size: 5rem;
   color: black;
-}
 
-a:hover {
-  background-color: #7298db;
-  border-radius: 15px;
+  &:hover {
+    background-color: #7298db;
+    border-radius: 15px;
+  }
 }
 
 body {
@@ -63,7 +63,6 @@ h1 {
 .header_container {
   display: flex;
   justify-content: center;
-
 }
 
 .intro_under_title {
@@ -150,7 +149,7 @@ p {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 20px
+  padding: 20px;
 }
 
 .contact_section {
@@ -208,7 +207,6 @@ p {
   text-align: center;
 }
 
-
 @media screen and (max-width: 600px) {
   html {
     font-size: 10px;
@@ -252,4 +250,5 @@ p {
     display: none;
   }
 }
+
 
