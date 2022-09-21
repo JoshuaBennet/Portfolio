@@ -7,53 +7,6 @@ html {
   font-size: 12px;
 }
 
-.gallery-title {
-  font-size: 8rem;
-  color: #030303;
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: 70px;
-}
-
-.gallery-title:after {
-  content: "";
-  position: absolute;
-  width: 7.5%;
-  left: 46.5%;
-  height: 45px;
-}
-
-.filter-button {
-  font-size: 18px;
-  border: 1px solid #030303;
-  border-radius: 5px;
-  text-align: center;
-  color: #030303;
-  margin-bottom: 30px;
-}
-
-.filter-button:hover {
-  font-size: 18px;
-  border: 1px solid #030303;
-  border-radius: 5px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #030303;
-}
-
-.btn-default:active .filter-button:active {
-  background-color: #030303;
-  color: white;
-}
-
-.port-image {
-  width: 100%;
-}
-
-.gallery_product {
-  margin-bottom: 30px;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -141,17 +94,8 @@ p {
 }
 
 .about_paragraph {
-  max-width: 60%;
+  max-width: 1000px;
   color: #030303;
-}
-
-.projects_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 10px;
 }
 
 .links_content {
@@ -171,9 +115,28 @@ p {
 
 .container {
   width: 100%;
+  max-width: 1100px;
   height: auto;
   margin-top: auto;
   margin-bottom: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.project_container {
+  width: 50%;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0;
+}
+
+.image_project {
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: auto;
 }
 
 .about_section {
@@ -218,11 +181,6 @@ p {
   position: absolute;
   right: 40px;
   bottom: 100px;
-}
-
-.image_projects_page {
-  display: inline;
-  position: relative;
 }
 
 .contact_section_rocket_image {
@@ -279,11 +237,21 @@ p {
   .content {
     padding: 0;
   }
+  .project_container {
+    width: 100%;
+  }
   .links_content {
-    padding-left: 100px;
+    align-content: center;
   }
   .sections_projects {
     padding: 0;
+  }
+  .contact_links {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .gallery-title {
+    margin-top: 100px;
   }
   .contact_section_planet_image {
     display: none;
