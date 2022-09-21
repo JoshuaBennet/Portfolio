@@ -74,11 +74,6 @@ nav {
   margin-bottom: 10px;
 }
 
-.cv {
-  border: solid #7198d9;
-  border-radius: 25px;
-}
-
 a {
   text-decoration: none;
   font-family: "Amatic SC", arial, sans-serif;
@@ -88,7 +83,7 @@ a {
   color: black;
 
   &:hover {
-    background-color: #7298db;
+    background-color: #E47960;
     border-radius: 15px;
   }
 }
@@ -147,12 +142,12 @@ p {
 }
 
 .about_title {
-  color: aliceblue;
+  color: #030303;
 }
 
 .about_paragraph {
   max-width: 60%;
-  color: aliceblue;
+  color: #030303;
 }
 
 .projects_container {
@@ -164,23 +159,19 @@ p {
   gap: 10px;
 }
 
-.projects_paragraph {
-  max-width: 360px;
-}
-
 .links_content {
   font-size: 4rem;
 }
 
 .contact_title {
-  color: aliceblue;
+  color: #030303;
 }
 
 .contact_text {
   margin-top: 0;
   display: flex;
   flex-wrap: wrap;
-  color: aliceblue;
+  color: #030303;
 }
 
 .container {
@@ -191,7 +182,7 @@ p {
 }
 
 .about_section {
-  background-color: #3f6ab5;
+  background-color: #E47960;
   position: relative;
   width: 100%;
   padding: 50px;
@@ -206,7 +197,7 @@ p {
 }
 
 .contact_section {
-  background-color: #3f6ab5;
+  background-color: #E47960;
   position: relative;
   width: 100%;
   padding: 50px;
@@ -253,7 +244,7 @@ p {
 }
 
 .contact_links {
-  color: aliceblue;
+  color: #030303;
 }
 
 .made_by {
