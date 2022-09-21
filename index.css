@@ -21,11 +21,6 @@ nav {
   margin-bottom: 10px;
 }
 
-.cv {
-  border: solid #7198d9;
-  border-radius: 25px;
-}
-
 a {
   text-decoration: none;
   font-family: "Amatic SC", arial, sans-serif;
@@ -34,8 +29,19 @@ a {
   font-size: 5rem;
   color: black;
 }
-a:hover {
+
+.contact_links:hover {
   background-color: #7298db;
+  border-radius: 15px;
+}
+
+.home_icon:hover {
+  background-color: #E47960;
+  border-radius: 15px;
+}
+
+.aRed:hover {
+  background-color: #E47960;
   border-radius: 15px;
 }
 
@@ -93,14 +99,15 @@ p {
 }
 
 .about_title {
-  color: aliceblue;
+  color: #030303;
 }
 
 .about_paragraph {
   max-width: 60%;
-  color: aliceblue;
+  color: #030303;
 }
 
+/*TODO Must work out why the container for projects is all jank and not aligned fix this */
 .projects_container {
   display: flex;
   flex-direction: row;
@@ -108,6 +115,10 @@ p {
   justify-content: space-between;
   align-items: stretch;
   gap: 10px;
+}
+
+.content {
+  border: solid black;
 }
 
 .projects_paragraph {
@@ -119,14 +130,14 @@ p {
 }
 
 .contact_title {
-  color: aliceblue;
+  color: #030303;
 }
 
 .contact_text {
   margin-top: 0;
   display: flex;
   flex-wrap: wrap;
-  color: aliceblue;
+  color: #030303;
 }
 
 .container {
@@ -137,7 +148,7 @@ p {
 }
 
 .about_section {
-  background-color: #3f6ab5;
+  background-color: #E47960;
   position: relative;
   width: 100%;
   padding: 50px;
@@ -152,7 +163,7 @@ p {
 }
 
 .contact_section {
-  background-color: #3f6ab5;
+  background-color: #E47960;
   position: relative;
   width: 100%;
   padding: 50px;
@@ -199,7 +210,7 @@ p {
 }
 
 .contact_links {
-  color: aliceblue;
+  color: #030303;
 }
 
 .made_by {
@@ -212,6 +223,7 @@ p {
   }
   h1 {
     margin-top: 200px;
+    text-align: center;
   }
   nav {
     border-bottom: solid #3f6ab5;
@@ -223,6 +235,7 @@ p {
   }
   .content {
     padding: 0;
+    margin: 0 auto;
   }
   .links_content {
     padding-left: 100px;
@@ -248,6 +261,13 @@ p {
   .homepage_section_astronaut_reaching_image {
     display: none;
   }
+  #downloadCV {
+    text-align: center;
+  }
+  .project_Img {
+    margin: 0 auto;
+  }
+
 }
 
 /*# sourceMappingURL=index.css.map */
