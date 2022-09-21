@@ -7,15 +7,14 @@ html {
   font-size: 12px;
 }
 
-
-.gallery-title
-{
+.gallery-title {
   font-size: 8rem;
   color: #030303;
   text-align: center;
   font-weight: 500;
   margin-bottom: 70px;
 }
+
 .gallery-title:after {
   content: "";
   position: absolute;
@@ -23,39 +22,35 @@ html {
   left: 46.5%;
   height: 45px;
 }
-.filter-button
-{
+
+.filter-button {
   font-size: 18px;
   border: 1px solid #030303;
   border-radius: 5px;
   text-align: center;
   color: #030303;
   margin-bottom: 30px;
-
 }
-.filter-button:hover
-{
+
+.filter-button:hover {
   font-size: 18px;
   border: 1px solid #030303;
   border-radius: 5px;
   text-align: center;
   color: #ffffff;
   background-color: #030303;
-
 }
-.btn-default:active .filter-button:active
-{
+
+.btn-default:active .filter-button:active {
   background-color: #030303;
   color: white;
 }
 
-.port-image
-{
+.port-image {
   width: 100%;
 }
 
-.gallery_product
-{
+.gallery_product {
   margin-bottom: 30px;
 }
 
@@ -186,7 +181,7 @@ p {
   background-color: #E47960;
   position: relative;
   width: 100%;
-  margin-top:100px;
+  margin-top: 100px;
   padding: 50px;
 }
 
@@ -257,11 +252,18 @@ p {
   html {
     font-size: 10px;
   }
+  .cv {
+    display: none;
+  }
   h1 {
     margin-top: 200px;
   }
   nav {
     border-bottom: solid #3f6ab5;
+  }
+  .aRed {
+    font-size: 2.5rem;
+    padding-right: 20px;
   }
   header {
     width: 100%;

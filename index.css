@@ -251,11 +251,18 @@ p {
   html {
     font-size: 10px;
   }
+  .cv {
+    display: none;
+  }
   h1 {
     margin-top: 200px;
   }
   nav {
     border-bottom: solid #3f6ab5;
+  }
+  .aRed {
+    font-size: 2.5rem;
+    padding-right: 20px;
   }
   header {
     width: 100%;
