@@ -8,8 +8,8 @@ html {
 }
 
 .gallery-title {
-  font-size: 36px;
-  color: #42B32F;
+  font-size: 8rem;
+  color: #030303;
   text-align: center;
   font-weight: 500;
   margin-bottom: 70px;
@@ -21,29 +21,28 @@ html {
   width: 7.5%;
   left: 46.5%;
   height: 45px;
-  border-bottom: 1px solid #5e5e5e;
 }
 
 .filter-button {
   font-size: 18px;
-  border: 1px solid #42B32F;
+  border: 1px solid #030303;
   border-radius: 5px;
   text-align: center;
-  color: #42B32F;
+  color: #030303;
   margin-bottom: 30px;
 }
 
 .filter-button:hover {
   font-size: 18px;
-  border: 1px solid #42B32F;
+  border: 1px solid #030303;
   border-radius: 5px;
   text-align: center;
   color: #ffffff;
-  background-color: #42B32F;
+  background-color: #030303;
 }
 
 .btn-default:active .filter-button:active {
-  background-color: #42B32F;
+  background-color: #030303;
   color: white;
 }
 
@@ -55,7 +54,7 @@ html {
   margin-bottom: 30px;
 }
 
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -137,6 +136,8 @@ p {
 
 .about_title {
   color: #030303;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .about_paragraph {
@@ -179,6 +180,7 @@ p {
   background-color: #E47960;
   position: relative;
   width: 100%;
+  margin-top: 100px;
   padding: 50px;
 }
 
