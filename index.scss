@@ -164,6 +164,11 @@ p {
   width: 100%;
   padding: 50px;
 }
+.projects_parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 .homepage_section_astronaut_floating_image {
   display: inline;
