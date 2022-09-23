@@ -57,6 +57,7 @@ h1 {
 .header_container {
   display: flex;
   justify-content: center;
+  padding-top: 150px;
 }
 
 .intro_under_title {
@@ -212,6 +213,9 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  .header_container {
+    padding-top: 0;
+  }
   html {
     font-size: 10px;
   }
