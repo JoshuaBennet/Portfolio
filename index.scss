@@ -51,7 +51,7 @@ header {
 
 h1 {
   font-family: "Amatic SC", arial, sans-serif;
-  font-size: 8rem;
+  font-size: 10rem;
   top: 200px;
   margin-top: 140px;
   text-align: center;
@@ -65,8 +65,10 @@ h1 {
 
 .intro_under_title {
   position: absolute;
+  font-size: 4rem;
   margin: 0 auto;
   max-width: 80%;
+  text-align: center;
 }
 
 .header_paragraph_container {
@@ -82,8 +84,13 @@ h2 {
 
 h3 {
   font-family: "Amatic SC", arial, sans-serif;
-  font-size: 6rem;
-  margin: 0;
+  font-size: 4.5rem;
+  margin: 10px 0;
+}
+.links_content {
+  a {
+    font-size: 3.5rem;
+  }
 }
 
 p {
@@ -98,8 +105,9 @@ p {
 }
 
 .about_paragraph {
-  max-width: 1000px;
-  color: #030303;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .links_content {
@@ -132,7 +140,7 @@ p {
   display: flex;
   height: auto;
   flex-direction: column;
-  padding: 10px;
+  padding: 40px;
   margin: 0;
 }
 
@@ -214,6 +222,28 @@ p {
   text-align: center;
 }
 
+@media screen and (max-width: 1585px) {
+  .homepage_section_astronaut_floating_image {
+    display: none;
+  }
+  .homepage_section_astronaut_reaching_image {
+    display: none;
+  }
+  .contact_section_planet_image {
+    display: none;
+  }
+  .contact_section_rocket_image {
+    display: none;
+  }
+  .image_projects_page {
+    display: none;
+  }
+  .about_section_astronaut_jumpingjack_image {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 900px) {
   .header_container {
     padding-top: 0;
@@ -268,23 +298,5 @@ p {
   }
   a {
     padding-right: 20px;
-  }
-  .contact_section_planet_image {
-    display: none;
-  }
-  .contact_section_rocket_image {
-    display: none;
-  }
-  .image_projects_page {
-    display: none;
-  }
-  .about_section_astronaut_jumpingjack_image {
-    display: none;
-  }
-  .homepage_section_astronaut_floating_image {
-    display: none;
-  }
-  .homepage_section_astronaut_reaching_image {
-    display: none;
   }
 }
